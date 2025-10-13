@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: #FFEBF8;
+}
+
+.tabela {
+  border-collapse: collapse;
+  width: 60%;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.tabela th {
+  background: #75004E;
+  color: white;
+  text-align: center;
+  padding: 12px 12px 11px;
+}
+
+.tabela td {
+  padding: 14px 15px;
+}
+
+.destacado {
+	color:red;
+  font-weight: bold;
+}
